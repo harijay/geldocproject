@@ -1,0 +1,21 @@
+Usage: report.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -p *.png, --png=*.png
+                        png image to annotate
+  -g 0.46, --gap=0.46   The gap between gel lanes
+  -n 12, --numlanes=12  
+  -l LANENAMES, --legend=LANENAMES
+                        lane names as csv
+  -m 2.12, --margin=2.12
+                        left hand margin
+  -f, --flip            
+  -t 6.7, --top_pos=6.7
+                        lanelabel pos
+  -r, --show_grid       overlay grid for planning layout
+  -b BENCH_MARK_X, --bench_mark_x=BENCH_MARK_X
+  -u [6.6,6.45,6.23,6.00,5.50,5.0,4.2,3.9], --fudge=[6.6,6.45,6.23,6.00,5.50,5.0,4.2,3.9]
+                        fudge factor for mwt labels
+  --shift_marker=0      
+  --scale_marker=0      
